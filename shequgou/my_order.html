@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>我的订单</title>
+    <link type="text/css" rel="stylesheet"  href="css/common.css" />
+    <link type="text/css" rel="stylesheet"  href="css/my_order.css" />
+    <script type="text/javascript" src="js/zepto.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var len=0;
+            var f=0;
+            var cq=0;
+            $('.nav_top li').tap(function(){
+                var t=$(this).index();
+                var wh=$('.line').width();
+                f=-25*t+"%";
+                cq=100*t+"%";
+                $(this).parents('.top_box').find('.line')
+                        .css({'-webkit-transform':'translate('+cq+')','-webkit-transition':'300ms linear'} );
+                $(this).addClass('on').siblings().removeClass('on');
+                $('#nav_mid').find('.order_box').eq(t).show().siblings().hide();
+            })
+        });
+    </script>
+</head>
+
+<body>
+<div class="main">
+    <header>
+        <div class="sqg_header_bar">
+            <a class="sqg_header_left header_goBack" href="##"></a>
+            <span class="sqg_header_title">我的订单</span>
+        </div>
+    </header>
+    <div class="top_box">
+        <ul class="nav_top">
+            <li class="on">全部</li>
+            <li>待付款</li>
+            <li>待收货</li>
+            <li>待评价</li>
+        </ul>
+        <span class="line"></span>
+    </div>
+    <div class="nav_mid" id="nav_mid">
+        <div class="order_box">
+            <div class="content">
+
+                <div class="order_number">
+                    <span>订单号：9952995210</span><i>待卖家付款</i>
+                </div>
+
+                <div class="store_box">
+                    <div class="store_name">
+                        <a href="javascript:">麦德龙超市</a><img src="images/icon_jitou.png">
+                    </div>
+                    <div class="pro_box">
+                        <a href="#" class="pro_list">
+                            <div class="p_name">
+                                <img src="images/shopping_img.jpg" />
+                                <div class="flex-item"><h2>浓郁可口零食花生牛奶糖500g</h2></div>
+                            </div>
+                            <div class="p_price">
+                                ￥8.080000000000<br>
+                                <i>X3</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="store_box">
+                    <div class="store_name">
+                        <a href="javascript:">麦德龙超市</a><img src="images/icon_jitou.png">
+                    </div>
+                    <div class="pro_box">
+                        <a href="#" class="pro_list">
+                            <div class="p_name">
+                                <img src="images/shopping_img.jpg" />
+                                <div class="flex-item"><h2>浓郁可口零食花生牛奶糖500g</h2></div>
+                            </div>
+                            <div class="p_price">
+                                ￥8.0800000000<br>
+                                <i>X3</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="quantity_box">
+                    <span class="quantity">共计10件</span>
+                    <span class="total_price">合计：￥8.08</span>
+                    <i>（含运费：10元）</i>
+                </div>
+                <div class="order_btn">
+                    <a href="#" >取消订单</a>
+                    <a href="#" class="pay_btn">立即支付</a>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <div class="order_number">
+                    <span>订单号：9952995210</span><i>待卖家付款</i>
+                </div>
+
+                <div class="store_box">
+                    <div class="store_name">
+                        <a href="javascript:">麦德龙超市</a><img src="images/icon_jitou.png">
+                    </div>
+                    <div class="pro_box">
+                        <a href="#" class="pro_list">
+                            <div class="p_name">
+                                <img src="images/shopping_img.jpg" />
+                                <div class="flex-item"><h2>浓郁可口零食花生牛奶糖浓郁可口零食花生牛奶糖浓郁可口零食花生牛奶糖500g</h2></div>
+                            </div>
+                            <div class="p_price">
+                                ￥8.08<br>
+                                <i>X3</i>
+                            </div>
+                        </a>
+                        <a href="#" class="pro_list">
+                            <div class="p_name">
+                                <img src="images/shopping_img.jpg" />
+                                <div class="flex-item"><h2>浓郁可口零食花生牛奶糖500g</h2></div>
+                            </div>
+                            <div class="p_price">
+                                ￥8.08<br>
+                                <i>X3</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="quantity_box">
+                    <span class="quantity">共计10件</span>
+                    <span class="total_price">合计：￥8.08</span>
+                    <i>（含运费：10元）</i>
+                </div>
+                <div class="order_btn">
+                    <a href="#" >取消订单</a>
+                    <a href="#" class="pay_btn">立即支付</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="order_box" style="display: none">
+
+        </div>
+
+        <div class="order_box" style="display: none">
+
+
+        </div>
+
+        <div class="order_box" style="display: none">
+            <div class="order_box_bg">
+                <span>暂无数据</span>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>

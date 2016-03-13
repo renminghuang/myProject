@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>我的收藏</title>
+    <link type="text/css" rel="stylesheet"  href="css/common.css" />
+    <link type="text/css" rel="stylesheet"  href="css/shoucang.css" />
+    <link type="text/css" rel="stylesheet"  href="css/store_list.css" />
+    <link type="text/css" rel="stylesheet"  href="css/group-list.css" />
+    <script type="text/javascript"  src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript"  src="js/tab.js"></script>
+</head>
+<script>
+    $(function(){
+        $('#tab').tab({
+            current:'cur_li',
+            content:'#content',
+            contentItem:'.content_item',
+            clickType:'click',
+            eleFind:'li'
+        });
+    })
+</script>
+<body>
+<div class="main">
+    <header>
+        <div class="sqg_header_bar">
+            <a class="sqg_header_left header_goBack" href="javascript:" onclick="window.history.go(-1);"></a>
+            <span class="sqg_header_title">我的收藏</span>
+        </div>
+    </header>
+    <div class="container">
+        <ul id="tab">
+            <li class="cur_li">
+               <span>店铺</span>
+                <i></i>
+            </li>
+            <li>
+                <span>商品</span>
+                <i></i>
+            </li>
+            <li>
+                <span>资讯</span>
+                <i></i>
+            </li>
+        </ul>
+        <div  id="content" >
+            <div class="store store_group content_item">
+                <a  href="store_list.html" class="store_group_item">
+                    <div class="left store_group_left">
+                        <div class="store_pic">
+                            <img class="img-responsive" src="images/img_dp1.jpg"/>
+                        </div>
+                        <div class="store_name">
+                            <div class="name">
+                                <h4>农鲜百果蔬园dddddddddddddddddddd</h4>
+                                <div class="store_icon" >
+                                    <span class="icon_zhi">支</span><span class="icon_ren">认</span><span class="icon_song">送</span>
+                                </div>
+                            </div>
+                            <p>营业时间：08:00到23:30</p>
+                            <p>10元起送/60分钟</p>
+                        </div>
+                    </div>
+                    <div class="right store_group_right">
+                        <span class="icon_hx class5"></span>
+                        <div class="icon_geo">
+                            <i></i><span>20673.6km</span>
+                        </div>
+                    </div>
+                </a>
+                <a  href="store_list.html" class="store_group_item" >
+                    <div class="left store_group_left">
+                        <div class="store_pic">
+                            <img class="img-responsive" src="images/img_dp1.jpg"/>
+                        </div>
+                        <div class="store_name">
+                            <div class="name">
+                                <h4>农鲜百果蔬园</h4>
+                                <div class="store_icon" >
+                                    <span class="icon_zhi">支</span><span class="icon_ren">认</span><span class="icon_song">送</span>
+                                </div>
+                            </div>
+                            <p>营业时间：08:00到23:30</p>
+                            <p>10元起送/60分钟</p>
+                        </div>
+                    </div>
+                    <div class="right store_group_right">
+                        <span class="icon_hx class2"></span>
+                        <div class="icon_geo">
+                            <i></i><span>3.6km</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="group-list content_item" style="display: none">
+                <div class="g-list-item">
+                    <a class="g-imgBox ">
+                        <img class="img-responsive" src="images/img_dp1.jpg" />
+                    </a>
+
+                    <div class="g-list-right ">
+                        <a class="title" href="#">
+                            <h1>华为手机荣耀畅玩4G</h1>
+                            <p>10点开售 准备开抢！</p>
+                        </a>
+                        <div class="price">
+                            <span class="strong">¥50</span>
+                            <del>¥100</del>
+                            <span class="line-right">已售738</span>
+                        </div>
+
+                    </div>
+                    <a class="shop_cart" href="#"></a>
+                </div>
+
+                <a  href="" class="g-list-item">
+                    <div class="g-imgBox ">
+                        <img class="img-responsive" src="images/img_dp1.jpg" />
+                    </div>
+                    <div class="g-list-right ">
+                        <div class="title">
+                            <h1>华为手机荣耀畅玩4G</h1>
+                            <p>10点开售 准备开抢！</p>
+                        </div>
+                        <div class="price">
+                            <span class="strong">¥50</span>
+                            <del>¥100</del>
+                            <span class="line-right">已售738件</span>
+                        </div>
+                        <span class="shop_cart"></span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

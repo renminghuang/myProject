@@ -1,0 +1,275 @@
+@charset "utf-8";
+.display_box{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -webkit-box-align:center;
+    -ms-align-items:center;
+    -webkit-align-items:center;
+    align-items:center;
+}
+/*coupon*/
+#aa{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    padding: 0 10px;
+}
+#a1{
+    width: 50px;
+    height: 100px;
+    background: green;
+}
+#a2{
+    width: 50px;
+    height: 100px;
+    background: red;
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.coupon{
+    overflow: hidden;
+    padding: 0 2.777%;
+    padding-top: 1rem;
+    min-height: 112px;
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+}
+body{
+    background: #f0f0f0;
+}
+/*top_box*/
+.top_box{ width:100%; position:relative; z-index: 55; height:44px;}
+.nav_top{
+    width:100%;
+    height:44px;
+    background:#ffffff;
+    text-align:center;
+}
+.nav_top li{
+    height: 44px;
+    line-height: 44px;
+    width:50%;
+    float:left;
+    font-size:1.4rem;
+    border-right:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.nav_top li.on{
+    color:#ff8808;
+}
+.line{
+    width:50%;
+    height:2px;
+    background:#ff8808;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    z-index: 99;
+}
+/****coupon-title*****/
+
+.coupon-title{
+    width: 36px;
+    background:url(../images/coupon_bg_01.jpg) 0 0 no-repeat ;
+    background-size: cover;
+}
+.coupon-title>h1{
+    width: 1.6rem;
+    word-wrap: break-word;
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding-top:26px;
+    padding-left: 12px;
+}
+
+/**coupon-content***/
+
+.coupon-content{
+    position: relative;
+    overflow: visible;
+    z-index: 55;
+    border: #d4d2cd 1px solid;
+    box-sizing: border-box;
+    background:url(../images/coupon_bg1.png) 96% 53px no-repeat #ffffff;
+    background-size: 86px 86px;
+
+    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;         /* OLD - Firefox 19- */
+    width: 20%;               /* For old syntax, otherwise collapses. */
+    -webkit-flex: 1;          /* Chrome */
+    -ms-flex: 1;              /* IE 10 */
+    flex: 1;
+}
+.coupon-content .price{
+    float: left;
+    min-width: 80px;
+    height: 112px;
+    display: block;
+    font-size: 2.2rem;
+    color: #d82400;
+    line-height: 112px;
+    text-align: center;
+}
+.coupon-content .price>b{
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.coupon-content .text{
+    margin: 20px 0;
+    padding-right: 8px;
+}
+.coupon-content .text>h3{
+    font-size: 1.2rem;
+    line-height: 1.428;
+}
+.coupon-content .text time{
+    font-size: 1.2rem;
+    color: #d82400;
+    line-height: 1.4rem;
+}
+.coupon-content .text span{
+    font-size: 1.2rem;
+    color: #ff8808;
+    line-height: 1.2;
+}
+.coupon-content .icon-bg{
+    position: absolute;
+    z-index: 99;
+    right: -9px;
+    top: 47px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #f0f0f0;
+}
+
+/*白金券*/
+
+.content_bjq{
+    overflow: hidden;
+    padding: 1rem 0;
+    height: auto;
+
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+.text_dp{
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 0 !important;
+}
+.content_bjq .price{
+    width: 80px;
+    height:42px;
+    font-size: 2.2rem;
+    color: #d82400;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.content_bjq .price b{
+    font-weight: 400;
+}
+.content_bjq .text{
+    margin-top: 0;
+}
+.content_bjq .text h3{
+    font-size: 1.2rem;
+    line-height: 1.428;
+}
+.content_bjq .text time{
+    font-size: 1.2rem;
+    color: #d82400;
+    line-height: 1.4rem;
+}
+.coupon_text{
+    border-top:#e5e5e5 1px solid;
+    margin: 0 10px;
+    padding-bottom: 10px;
+}
+.coupon_text p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin: 0 4.777%;
+    padding-top:4px;
+    color: #ff8808;
+}
+
+/*已使用票券*/
+
+.coupon-has-used .coupon-title{
+    background:url(../images/coupon_bg_02.jpg) 0 0 no-repeat ;
+    background-size: cover;
+}
+.coupon-has-used .coupon-content{
+    background:url(../images/coupon_bg2.png) 100% 35px no-repeat #ffffff ;
+    background-size: 86px 86px;
+    color: #b9b7b3;
+}
+.coupon-has-used .coupon-content .price,
+.coupon-has-used .coupon-content .text time,
+.coupon-has-used .coupon-content p,
+.coupon-has-used .coupon-content .text span{
+    color: #b9b7b3;
+}
+
+/*已过期票券*/
+
+.coupon-has-overdue>.coupon-title{
+    background:url(../images/coupon_bg_02.jpg) 0 0 no-repeat ;
+    background-size: cover;
+}
+.coupon-has-overdue>.coupon-content{
+    background:url(../images/coupon_bg_overdue.png) 100% 35px no-repeat #ffffff ;
+    background-size: 86px 86px;
+    color: #b9b7b3;
+}
+.coupon-has-overdue>.coupon-content .price,
+.coupon-has-overdue>.coupon-content .text time,
+.coupon-has-overdue>.coupon-content p,
+.coupon-has-overdue>.coupon-content .text span{
+    color: #b9b7b3;
+}
+
+
+/*2015-9-17*/
+.c_title{
+    margin: 1rem 10px 0;
+    border-bottom: #000000 1px solid;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.c_title h1{
+    border-bottom: #000000 2px solid;
+    padding-bottom: 4px;
+    font-size: 1.8rem;
+}

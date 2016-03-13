@@ -1,0 +1,250 @@
+@charset "utf-8";
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+input{
+    border: none;
+}
+body{
+    background: #f0f0f0;
+}
+/**********登录界面******************************************/
+.display_box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+.flex-item{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.box-sizing{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.checkbox input[type="checkbox"]{
+    border-radius: 0;
+    display: inline-block;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(../images/shopping_icon1.png);
+    background-repeat: no-repeat;
+    background-size:66px;
+    background-position:0px -22px;
+    outline: 0;
+}
+.checkbox input[type="checkbox"]:checked{
+    background-position:0px 0px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: 0;
+}
+/*login_top*/
+.login_top{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.login_pic{
+    position: absolute;
+    z-index: 55;
+    left: 50%;
+    margin-left: -63px;
+    bottom: -76px;
+    width: 120px;
+    height: 120px;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 50%;
+}
+.login_pic img{
+    width: 100%;
+}
+
+/*login_box*/
+.login_content{
+    margin: 0 8.333%;
+}
+.login_box{
+    background: #ffffff;
+    border-radius: 6px;
+    border: #e5ddd1 1px solid;
+    box-shadow: 1px 1px 1px #e7e3de;
+}
+.login_box .box{
+    margin: 0 5%;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #4c483d;
+}
+.password .space{
+    display: inline-block;
+    width: 28px;
+}
+.login_box .box>label{
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+.phone{
+    border-bottom: #d5cec4 1px solid;
+    color: #4c483d;
+}
+.login_box input{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 6px;
+    border: none;
+}
+.login_box .icon{
+    vertical-align: top;
+    display: inline-block;
+    width: 26px;
+    height: 30px;
+    background:url(../images/login_icon.png) 0 0 no-repeat;
+    background-size: 46px;
+}
+.phone .icon_ph{
+    background-position: 5px 2px;
+}
+.password .icon_pw{
+    background-position: -19px 2px;
+    background-size: 44px;
+}
+
+/*login_btn*/
+.login_btn{
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+.login_btn input{
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 40px;
+    color: #ffffff;
+    background: #ff8808;
+    border-radius: 4px;
+}
+
+/*registered*/
+.registered{
+    margin: 0.6rem 0;
+    text-align: right;
+}
+.registered li{
+    display: inline-block;
+    vertical-align: top;
+}
+.registered li a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px 15px;
+    border: #e5e5e5 1px solid;
+    border-radius: 4px;
+}
+
+/**********注册******************************************/
+.register_content{
+    padding: 1rem 15px;
+    /*background: #ffffff;*/
+}
+.input_box{
+    position: relative;
+    margin-bottom: 8px;
+}
+.register_content input[type="password"],
+.register_content input[type="text"]{
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 8px;
+    border-radius: 4px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #ffffff;
+    text-shadow: none;
+}
+.area_input .icon{
+    position: absolute;
+    z-index: 55;
+    right: 10px;
+    top: 1px;
+    display: block;
+    width: 10px;
+    height:41px;
+    background: url(../images/icon_jitou.png) 0 center no-repeat ;
+    background-size: 10px;
+}
+.phone_input .verification{
+    margin-top: 5px;
+    width:78px;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align:middle;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: #e0e0e0 1px solid;
+    webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+.checkbox_input{
+    width: 126px;
+    margin: 0 auto;
+}
+.checkbox .text{
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    text-decoration:underline ;
+    color: #ff8808;
+    font-size: 1.4rem;
+}
+.checkbox input[type="checkbox"]{
+    vertical-align: middle;
+    font-size: 14px;
+
+}
+.Submit_box{
+    text-align: center;
+    margin: 1rem 0;
+}
+.Submit_btn{
+    width: 60%;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    background: #ff8808;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+/**********/
+.flex-item>input{
+     width: 120px;
+ }

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/*top_box*/
+.top_box{ width:100%; position:relative; z-index: 99; height:44px;}
+.nav_top{
+    width:100%;
+    height:44px;
+    background:#ffffff;
+    border-bottom:1px solid #e5e5e5;
+    text-align:center;
+    z-index: 99;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.nav_top li{
+    margin: 7px 0;
+    height: 30px;
+    line-height: 30px;
+    width:25%;
+    float:left;
+    font-size:1.4rem;
+    border-right:1px solid #e5e5e5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+.nav_top li.on{
+    color:#ff8808;
+}
+.line{
+    width:25%;
+    height:2px;
+    background:#ff8808;
+    position:absolute;
+    z-index: 99;
+    left:0;
+    bottom: 0;
+}
+/*nav_mid*/
+.nav_mid{
+    background: white;
+}
+/*store_name*/
+.order_number{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 2.777%;
+    background: #ebebeb;
+}
+.order_number span{
+    font-size: 1.4rem;
+    float: left;
+}
+.order_number i{
+    font-size: 1.4rem;
+    float: right;
+    color: #ff8808;
+}
+.store_name{
+    height: 44px;
+    line-height: 44px;
+    margin: 0 2.777%;
+    background: #ffffff;
+    border-bottom: #e5e5e5 1px solid;
+}
+.store_name a{
+    font-size: 1.6rem;
+}
+.store_name img{
+    height: 14px;
+    display: inline-block;
+    /*vertical-align:-3px;*/
+    margin-left: 8px;
+    margin-top:15px ;
+    float: right;
+}
+.order_status{
+    float: right;
+    font-size: 1.4rem;
+    color:#ff8808;
+}
+/*order-num*/
+.order-num{
+    position: relative;
+    height: 46px;
+    padding:  0 2.777%;
+    line-height: 46px;
+    overflow: hidden;
+    border-bottom:#e5e5e5 1px solid;
+}
+.order-num>span{
+    float: left;
+    font-size: 1.4rem;
+}
+.order-num>time{
+    float: left;
+    margin-left: 8px;
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+.order-num>i{
+    float: right;
+    font-size: 1.4rem;
+    color: #ff8808;
+}
+
+/*title_b*/
+.order-content .title_b{
+    margin: 0;
+    background: #f0f0f0;
+    border-top:0;
+}
+.order-content .title_b>h1{
+    padding: 0 2.777%;
+    font-size: 1.4rem;
+}
+/*pro_list*/
+.order-content{
+    border-bottom:#e5e5e5 1px solid;
+}
+.pro_list{
+    display: block;
+    padding: 1rem 0;
+    margin: 0 2.777%;
+    border-bottom:#e5e5e5 1px solid;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+/*.pro_box a:nth-last-child(1){*/
+    /*border-bottom: 0;*/
+/*}*/
+.p_name{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.p_price{
+    /*width:50px;*/
+    color: #d82400;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: right;
+}
+.p_name>img{
+    display:inline-block;
+    width: 6.2rem;
+    height: 6.2rem;
+    vertical-align: top;
+}
+.p_name h2{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin: 0 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+
+}
+.p_price i{
+    color: #666666;
+    line-height: 1.4rem;
+}
+/*quantity_box*/
+.quantity_box{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin: 0 2.777%;
+    border-bottom:#e5e5e5 1px solid;
+}
+.quantity_box .quantity{
+    font-size: 1.4rem;
+}
+.quantity_box .total_price{
+    font-size: 1.4rem;
+    color: #d82400;
+    margin-left: 8px;
+}
+.quantity_box i{
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+/*order_btn*/
+.order_btn{
+    padding: 0 2.777%;
+    height: 56px;
+    line-height: 56px;
+    text-align: right;
+}
+.order_btn>a{
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-left: 4px;
+    font-size: 1.4rem;
+    border:#e5e5e5 1px solid;
+}
+.order_btn .pay_btn{
+    background: #ff8808;
+    color: #ffffff;
+    border:0;
+}
+.order_btn>span{
+    font-size: 1.2rem;
+    margin-left: 4px;
+}
+.order_btn .total{
+    color: #d82400;
+    font-size: 1.4rem;
+}

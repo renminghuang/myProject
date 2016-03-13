@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>我的团购券</title>
+    <link type="text/css" rel="stylesheet"  href="css/common.css" />
+    <link type="text/css" rel="stylesheet"  href="css/my_coupon.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var len=0;
+            var f=0;
+            var cq=0;
+            $('.nav_top li').click(function(){
+                var t=$(this).index();
+                var wh=$('.line').width();
+                f=-25*t+"%";
+                cq=100*t+"%";
+                $(this).parents('.top_box').find('.line')
+                        .css({'-webkit-transform':'translate('+cq+')','-webkit-transition':'300ms linear'} );
+                $(this).addClass('on').siblings().removeClass('on');
+                $('#nav_mid').find('.order_box').eq(t).show().siblings().hide();
+            })
+        });
+    </script>
+</head>
+
+<body>
+<div class="main">
+    <div class="sqg_header_bar">
+        <a class="sqg_header_left header_goBack" href="#"></a>
+        <span class="sqg_header_title">我的团购券</span>
+    </div>
+    <div class="top_box">
+        <ul class="nav_top">
+            <li class="on">未使用</li>
+            <li>已使用</li>
+        </ul>
+        <span class="line"></span>
+    </div>
+    <div class="nav_mid" id="nav_mid">
+        <div class="order_box">
+            <div class="order_box_bg" style="display: none">
+                <span>无票券？</span>
+            </div>
+            <div class="coupon">
+                <div class="coupon-title ">
+                    <h1>优惠券</h1>
+                </div>
+                <div class="coupon-content">
+                    <h2 class="price">￥<b>16</b></h2>
+                    <div class="text">
+                        <h3>益田假日餐饮</h3>
+                        <time>有效期：2015-07-01</time><br>
+                        <span>订单满100元可抵用一张</span>
+                    </div>
+                    <i class="icon-bg"></i>
+                </div>
+            </div>
+
+            <div class="coupon ">
+                <div class="coupon-title">
+                    <h1>白金券</h1>
+                </div>
+                <div class="coupon-content">
+                    <div class="content_bjq">
+                        <h2 class="price">￥<b>100</b></h2>
+                        <div class="text text_dp">
+                            <div class="dp">
+                                <h3>益田假日餐饮益田益田益田</h3>
+                                <h3>益田假日餐饮益田益田益田</h3>
+                                <h3>益田假日餐饮益田益田益田</h3>
+                                <time>有效期：2015-07-01</time><br>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icon-bg"></i>
+                    <div class="coupon_text">
+                        <p>订单满100元可抵用一张订单满100元可抵用一张订单满100元可抵用一用一张订单满100元可抵用一张订单满100元可抵用一</p>
+                    </div>
+                </div>
+            </div>
+            <div class="coupon">
+                <div class="coupon-title ">
+                    <h1>优惠券</h1>
+                </div>
+                <div class="coupon-content">
+                    <h2 class="price">￥<b>16</b></h2>
+                    <div class="text">
+                        <h3>益田假日餐饮</h3>
+                        <time>有效期：2015-07-01</time><br>
+                        <span>订单满100元可抵用一张</span>
+                    </div>
+                    <i class="icon-bg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="order_box" style="display: none">
+            <div class="coupon coupon-has-used">
+                <div class="coupon-title">
+                    <h1>普通券</h1>
+                </div>
+                <div class="coupon-content display_box">
+                    <h2 class="price">￥<b>16</b></h2>
+                    <div class="text">
+                        <h3>益田假日餐饮益田假日餐饮益田假日餐饮益田假日餐饮</h3>
+                        <time>有效期：2015-07-01</time><br>
+                        <span>订单满100元可抵用一张订单满100元可抵用一张</span>
+                    </div>
+                    <i class="icon-bg"></i>
+                </div>
+            </div>
+
+            <div class="coupon coupon-has-overdue">
+                <div class="coupon-title">
+                    <h1>白金券</h1>
+                </div>
+                <div class="coupon-content">
+                    <div class="content_bjq">
+                        <h2 class="price">￥<b>100</b></h2>
+                        <div class="text display_box">
+                            <div class="dp">
+                                <h3>益田假日餐饮益田益田益田</h3>
+                                <time>有效期：2015-07-01</time><br>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="icon-bg"></i>
+                    <p>订单满100元可抵用一张订单满100元可抵用一张订单满100元可抵用一</p>
+                </div>
+            </div>
+            <div class="coupon coupon-has-used">
+                <div class="coupon-title ">
+                    <h1>优惠券</h1>
+                </div>
+                <div class="coupon-content">
+                    <h2 class="price">￥<b>16</b></h2>
+                    <div class="text">
+                        <h3>益田假日餐饮</h3>
+                        <time>有效期：2015-07-01</time><br>
+                        <span>订单满100元可抵用一张</span>
+                    </div>
+                    <i class="icon-bg"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aa">
+        <div id="a1"></div>
+        <div id="a2"></div>
+    </div>
+
+</div>
+</body>
+</html>

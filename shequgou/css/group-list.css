@@ -1,0 +1,154 @@
+/******团购*****************************/
+.group-list{
+    background: #ffffff;
+    padding: 0 10px;
+}
+.group-list a:last-child{
+    border-bottom: 0;
+}
+.g-list-item{
+    min-height: 65px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 1rem 0;
+    border-bottom: #e5e5e5 1px solid;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+.g-imgBox{
+    display: block;
+    width: 22%;
+}
+.g-list-right{
+    width: 78%;
+    padding-left: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.g-list-right .title{
+    display: block;
+    padding: 3% 0 3%;
+}
+.g-list-right .title>h1{
+    max-width: 100%;
+    font-size: 1.4rem;
+    color: #666666;
+    font-weight: 400;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    line-height: 1.428;
+    padding: 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.g-list-right .title>p{
+    font-size: 1.2rem;
+    line-height: 1.428;
+    color: #b9b7b3;
+}
+.g-list-right .price{
+    position: absolute;
+    margin-left: 22%;
+    width: 78%;
+    left: 8px;
+    bottom: 0.6rem;
+    overflow: hidden;
+
+}
+.g-list-right .strong{
+    font-size: 1.6rem;
+    color: #d82400;
+}
+.g-list-right .strong-color{
+    color: #d82400;
+}
+.g-list-right .price>del{
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+.g-list-right .line-right{
+    float: right;
+    font-size: 1.2rem;
+    color: #b9b7b3;
+    margin-right: 15px;
+}
+/*团购列表*/
+.group-block{
+    border-bottom: #e5e5e5 1px solid;
+    margin-bottom: 1rem;
+
+}
+.group-block .group-name-border{
+    border-top:0;
+}
+.group-name{
+    font-size: 1.5rem;
+    color: #3f3c33;
+    background: #ffffff;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 15px;
+    border-bottom: #e5e5e5 1px solid;
+    border-top: #e5e5e5 1px solid;
+}
+.group-icon{
+    color: #ffffff;
+    padding: 2px 2px 1px 2px;
+    font-size: 1.2rem;
+    background: #0091d3;
+    border-radius: 3px;
+}
+.group-icon-q{
+    background: #d82400;
+}
+/*group-more*/
+.group-more{
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #b9b7b3;
+    border-top: #e5e5e5 1px solid;
+    background: #ffffff;
+}
+.group-more span:after {
+     content: '';
+     display: inline-block;
+     margin-left: 8px;
+     width: 12px;
+     height: 17px;
+     background: url(../images/shopping_icon1.png) no-repeat;
+     background-position: -69px -34px;
+     background-size: 80px 80px;
+     vertical-align: -2px;
+ }
+
+
+/****************/
+.shop_cart{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 999px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+    right: -3px;
+    top: 16px;
+    margin-right: 4.777%;
+    background: url(../images/icon_header.png) 0 0 no-repeat;
+    background-size: 70px;
+    background-position: -42px -234px;
+}

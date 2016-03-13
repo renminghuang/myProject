@@ -1,0 +1,107 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Tab Effect Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        <!--
+        a {blr:expression(this.onFocus=this.blur())}
+        body {
+            font-family: "Verdana";
+            font-size: 10px;
+        }
+        td {
+            font-family: "Verdana";
+            font-size: 10px;
+            padding:3px;
+        }
+        .qqtable {
+            font-family: "Verdana";
+            font-size: 10px;
+            padding:0px;
+        }
+        .tabon {
+            background-color: #999999;
+            border-top: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;
+            color: #000000;
+            font-weight: bold;
+        }
+        .taboff {
+            background-color: #CCCCCC;
+            border: 1px solid #CCCCCC;
+            color: #FFFFFF;
+        }
+        .tdbody {
+            border: 1px solid #000000;
+            line-height:20px;
+            background-color: #ffffff;
+        }
+        a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #333333;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #999900;
+            text-decoration: underline;
+        }.qqbody {
+             border-left: 1px solid #999999;  border-right: 1px solid #999999;
+         }
+        -->
+    </style>
+    <script language="JavaScript">
+        function tabit(id,cid) {
+            tab5d.className="taboff";tabcv.className="taboff";tabbi.className="taboff";id.className="tabon";
+            c5d.style.display="none";ccv.style.display="none";cbi.style.display="none";cid.style.display="block";
+//winname=cid; 
+        }
+        function showall() {
+            tab5d.className="tabon";tabcv.className="tabon";tabbi.className="tabon";
+            c5d.style.display="block";ccv.style.display="block";cbi.style.display="block";
+        }
+    </script>
+</head>
+<body onLoad="tabit(tab5d,c5d)">
+<table width="300" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="20" class="taboff" id="tab5d" style="cursor:hand" onClick="tabit(tab5d,c5d)" width="25%">5DMedia</td>
+        <td class="taboff" id="tabcv" style="cursor:hand" onClick="tabit(tabcv,ccv)" width="25%">ChinaVisual</td>
+        <td class="taboff" id="tabbi" style="cursor:hand" onClick="tabit(tabbi,cbi)" width="25%">Bluediea</td>
+        <td width="25%"> </td>
+    </tr>
+    <tr id="c5d" style="display:none">
+        <td colspan="4" class="tdbody"> <p><strong><br>
+            <img src="http://vip.5d.cn/allinhands/M/file/5dmedia.gif" width="88" height="31"><br>
+            <br>
+            5DMedia</strong><br>
+            <a href="http://www.5dmedia.com">http://www.5dmedia.com</a><br>
+            <a href="http://www.5dmedia.com/bbs">http://www.5dmedia.com/bbs</a> </p>
+        </td>
+    </tr>
+    <tr id="ccv" style="display:none">
+        <td colspan="4" class="tdbody"><strong><br>
+            <img src="http://vip.5d.cn/allinhands/M/file/cv_logo.gif" width="88" height="31"><br>
+            <br>
+            ChinaVisual</strong><br>
+            <a href="http://www.chinavisual.com">http://www.chinavisual.com</a> <br>
+            <a href="http://forum.chinavisual.com">http://forum.chinavisual.com</a>
+        </td>
+    </tr>
+    <tr id="cbi" style="display:none">
+        <td colspan="4" class="tdbody"><strong><br>
+            <img src="http://vip.5d.cn/allinhands/M/file/blueidea.gif" width="88" height="31"><br>
+            <br>
+            Blueidea</strong><br>
+            <a href="http://www.bluedidea.com">http://www.bluedidea.com</a> <br>
+            <a href="http://www.blueidea.com/bbs">http://www.blueidea.com/bbs</a></td>
+    </tr>
+</table>
+<!--<p align="center"><font color="#006600" style="cursor:hand" onClick=showall()><strong>Show All</strong></font></p>-->
+<p> </p>
+<p align="center">Powered By <a href="mailto:allinhands@chinavisual.com">Allinhands</a>.QQ:1707477<br>
+    Notice:No Order these sites above!</p>
+

@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+    background: #f0f0f0;
+}
+/*container*/
+.container{
+     background-color: #ffffff;
+ }
+.container a{
+   position: relative;
+    z-index: 22;
+   display: block;
+   border-bottom:#e5e5e5 1px solid;
+   padding:1rem 2.777%;
+   overflow:hidden;
+}
+.container a img{
+    float: left;
+    width: 6.2rem;
+    margin-right: 0.4rem;
+    height: auto;
+    border-radius: 0.2rem;
+}
+.container .p_name{
+    float:left;
+}
+.container .p_name h2{
+    padding-bottom: 0.6rem;
+    font-size:1.4rem;
+    font-weight:400;
+    color:#3f3c33;
+    line-height:2rem;
+}
+.container .p_name .price i{
+    color:#d82400;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+.container .p_name .price del{
+    color:#b9b7b3;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.container .p_name p{
+    color: #ff8808;
+    font-size: 1.2rem;
+}
+.container b{
+    position:absolute;
+    z-index:5; right:0;
+    bottom:15px;
+    font-size: 1.2rem;
+    margin-right:2.777%;
+    color:#b9b7b3;
+    font-weight: 400;
+}
+.container .gouwuche{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 999px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+    right: 5px;
+    top: 16px;
+    margin-right: 4.777%;
+    background: url(../images/icon_header.png) 0 0 no-repeat;
+    background-size: 70px;
+    background-position: -42px -234px;
+}
+/*xialakuang*/
+.header_bar{
+    position: relative;
+    z-index: 55;
+}
+.xialakuang{
+    position: absolute;
+    z-index: 55;
+    left: 0;
+    bottom: -16.1rem;
+    width: 100%;
+    background-color: #ffffff;
+ }
+.xialakuang a{
+    display: block;
+    height: 3.2rem;
+    overflow: hidden;
+    line-height: 3.2rem;
+    text-align: left;
+    box-sizing: border-box;
+    border-bottom: #e5e5e5 1px solid;
+}
+.xialakuang a .b{
+    float: left;
+    width: 25%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-right: #e5e5e5 1px solid;
+    box-sizing: border-box;
+    padding-right: 10%;
+    text-align: right;
+}
+.xialakuang a .m{
+    float: left;
+    width: 65%;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+.xialakuang  .b{
+    position: relative;
+    z-index: 55;
+}
+.xialakuang a .jt{
+    position: absolute;
+    z-index: 55;
+    right: 10px;
+    top: 9px;
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    background: url(../images/icon_header.png) 0 0 no-repeat ;
+    background-size: 60px;
+    background-position: -48px -69px;
+    vertical-align: -0.6rem;
+    margin-left: 1.2rem;
+}
+.xialakuang a .current{
+   border-right: none;
+   color: #ff8808;
+}

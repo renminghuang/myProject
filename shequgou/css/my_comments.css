@@ -1,0 +1,52 @@
+@charset "utf-8";
+.comment_list{
+    margin: 0 2.777%;
+    border-bottom:#e5e5e5 1px solid;
+}
+.user{
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 1rem;
+ }
+.user h3{
+    float: left;
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+.user h3:before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+    margin-right: 6px;
+    background:url(../images/pro_icon1.jpg) 0px 0px no-repeat #0091d3;
+    background-size: 20px;
+}
+.user span{
+    float: right;
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+.comment_list p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding-bottom: 1rem;
+}
+.comment_img{
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+.comment_img li{
+    width: 25%;
+    max-height: 210px;
+    float: left;
+    text-align: center;
+}
+.comment_img li img{
+    display: inline-block;
+    width: 90%;
+    border-radius: 4px;
+}
+

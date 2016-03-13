@@ -1,0 +1,130 @@
+/**********店铺列表**************************************/
+
+.store_group{
+    padding: 0 10px;
+    background: #ffffff;
+}
+.store_group_item{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 1rem 0;
+    border-bottom:#e5e5e5 1px solid;
+    background: #ffffff;
+}
+.store_group_left{
+    float: left;
+    width:78%;
+    position: relative;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.store_group_right{
+    float: left;
+    min-height: 1px;
+    width: 22%;
+    text-align: right;
+    margin-top: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.store_group_item:last-child{
+    border-bottom:0;
+}
+.left{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+.store .left .store_pic{
+    width: 28%;
+}
+.store .store_name{
+    width:72%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    box-sizing: border-box;
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.store .store_name .name{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 4% 0 4%;
+    overflow: hidden;
+}
+.store .store_name h4{
+    max-width: 66%;
+    font-size: 1.4rem;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    height: 1.4rem;
+    padding: 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.store_icon{
+    display: inline-block;
+    vertical-align: top;
+    height: 1.4rem;
+    padding: 0 0;
+}
+.store .store_name p{
+    color:#b9b7b3;
+    font-size:1.2rem;
+    line-height: 1.4rem;
+}
+.store_icon span{
+    display: inline-block;
+    font-size: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1px;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+.icon_zhi{
+    background:#0091d3;
+}
+.icon_ren{
+    background:#d82400;
+}
+.icon_song{
+    background:#ff8808;
+}
+
+.icon_geo{
+    position: absolute;
+    z-index: 55;
+    right: 0;
+    bottom: 1rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.icon_geo i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 15px;
+    background: url(../images/icon1_address.png) 0 0 no-repeat;
+    background-size: 9px;
+}
+.icon_geo span{
+    font-size: 1.2rem;
+    color:#b9b7b3;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>添加/修改配送地址</title>
+    <link type="text/css" rel="stylesheet"  href="css/common.css" />
+    <link type="text/css" rel="stylesheet"  href="css/shopping.css" />
+</head>
+<body style="background: #ffffff">
+<div class="main">
+    <div class="sqg_header_bar">
+        <a class="sqg_header_left header_goBack" href="javascript:" onclick="window.history.go(-1);"></a>
+        <span class="sqg_header_title">添加/修改配送地址</span>
+    </div>
+
+    <form class="address" action="http://www.baidu.com">
+
+        <div class="address_b full_name">
+            <label>收货人：</label>
+            <input type="text"  placeholder="请输入您的姓名">
+        </div>
+
+        <div class="address_b phone_num">
+            <label>联系电话：</label>
+            <input type="text"  placeholder="请输入您的手机号码">
+        </div>
+
+        <div class="address_textarea">
+            <label>详细地址：</label>
+            <div class="textarea">
+                <textarea  rows="2"  placeholder="请输入您的收货地址/默认本小区地址" ></textarea>
+            </div>
+        </div>
+        <div class="btn_submit">
+            <input class="btn btn_del" type="submit" value="删除">
+            <input class="btn btn_save" type="submit" value="保存使用">
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>

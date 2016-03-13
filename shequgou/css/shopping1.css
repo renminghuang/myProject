@@ -1,0 +1,242 @@
+/*公共样式*/
+*{
+    outline:0;
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+    margin-bottom: 56px;
+    background: #f0f0f0;
+}
+.checkbox input[type="checkbox"]{
+    border-radius: 0;
+    display: inline-block;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(../images/shopping_icon1.png);
+    background-repeat: no-repeat;
+    background-size:66px;
+    background-position:0px -21px;
+}
+.checkbox input[type="checkbox"]:checked{
+    background-position:0px 0px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+/**************我的购物车*********************************************************/
+/*cart_wrapper*/
+.cart_wrapper{
+
+}
+.cart_wrapper .mingcheng{
+    width: 100%;
+    padding: 0 2.777%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    overflow: hidden;
+    border-bottom:#e0e0e0 1px solid;
+}
+.cart_wrapper .mingcheng h1{
+    width: 90%;
+    float: left;
+    font-size: 1.6rem;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cart_wrapper .mingcheng .mc_checkbox{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cart_wrapper .h1_w h1:before{
+    background-position:0px -18px;
+}
+.cart_wrapper .mingcheng h1 span{
+    margin-left: 8px;
+    font-size: 1.4rem;
+    color: #ff8808;
+}
+.cart_wrapper .icon_arr{
+    float: right;
+    width: 12px;
+    height: 17px;
+    background:url(../images/icon_jitou.png) no-repeat ;
+    background-size: 11px;
+}
+
+/*products*/
+.cart_wrapper .products {
+    padding: 10px 2.77%;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    z-index: 55;
+    border-bottom:#e5e5e5 1px solid;
+    display: flex;
+    -webkit-display: flex;
+}
+.cart_wrapper .products .pro_checkbox{
+    float: left;
+    display: inline-block;
+    margin-top: 22px;
+    vertical-align: middle;
+    margin-right: 2.77%;
+}
+.cart_wrapper .products .chanpin{
+    overflow: hidden;
+    float: left;
+    flex: 1;
+    -webkit-flex: 1;
+}
+.cart_wrapper .products .chanpin img{
+    float: left;
+    width: 6.2rem;
+    height: 6.2rem;
+    border-radius: 0.4rem;
+}
+.cart_wrapper .products .chanpin .name{
+    float: left;
+    margin-left: 8px;
+}
+.cart_wrapper .products .chanpin .name h2{
+    font-size: 1.4rem;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:190px;
+}
+.cart_wrapper .products .chanpin .name p{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #d82400;
+    line-height: 20px;
+}
+.cart_wrapper .products .chanpin .name p span{
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    color: #b9b7b3;
+}
+
+.cart_wrapper .products .select{
+    overflow: hidden;
+    /*float: right;*/
+    margin-top: 24px;
+    position: absolute;
+    z-index: 55;
+    bottom: 10px;
+    right: 2.777%;
+}
+.cart_wrapper .products .select .fm-txt{
+    font-size: 16px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border:1px solid #ccc;
+    float: left;
+    width: 32px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.cart_wrapper .products .select .btn-del{
+    border-radius: 3px 0 0 3px;
+    font-size: 20px;
+    border:1px solid #ccc;
+    border-right: none;
+    float: left;
+    width: 32px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.cart_wrapper .products .select .btn-add{
+    border-radius: 0 3px 3px 0;
+    font-size: 20px;
+    border:1px solid #ccc;
+    border-left: none;
+    float: left;
+    width: 32px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/*zongjia*/
+.cart_wrapper .zongjia{
+    padding: 0 2.77%;
+    background: #ffffff;
+    height: 40px;
+    text-align: right;
+    border-bottom:#e5e5e5 1px solid;
+}
+.cart_wrapper .zongjia p{
+
+    font-size: 1.4rem;
+    color: #d82400;
+    line-height: 40px;
+
+}
+/*gw_bottom_btn*/
+.gw_bottom_btn{
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 56px;
+    line-height: 56px;
+    background: #f0f0f0;
+    border-top:#e5e5e5 1px solid;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+.bl{
+  width: 68px;
+  font-size: 1.4rem;
+}
+.bl input{
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: -5px;
+}
+.br{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+
+    text-align: right;
+}
+.br a{
+    display: inline-block;
+    width: 22%;
+    height: 36px;
+    font-size: 1.4rem;
+    line-height: 36px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff8808;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 6px;
+}
+.br .br-sc{
+    margin-right: 10px;
+    background-color: #d82400;
+}
+.br .br-count{
+    color: #d82400;
+    font-size: 1.4rem;
+}

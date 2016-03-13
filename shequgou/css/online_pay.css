@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/*pay*/
+.pay{
+    background: #f0f0f0;
+    padding-bottom: 1rem;
+}
+.pay p{
+    padding: 0 2.777%;
+    background: #ffffff;
+    height: 52px;
+    text-align: right;
+    line-height: 52px;
+    font-size: 1.4rem;
+    color: #d82400;
+    border-bottom:#e5e5e5 1px solid;
+}
+/*pay_list*/
+.pay_list{
+    background: #ffffff;
+}
+.pay_list li:first-child{
+    border-top:#e5e5e5 1px solid;
+}
+.pay_list a{
+    margin: 0 2.777%;
+    display: block;
+    height: 52px;
+    line-height: 52px;
+    font-size: 1.4rem;
+    color: #3f3c33;
+    border-bottom:#e5e5e5 1px solid;
+    overflow: hidden;
+}
+.pay_list a span{
+    float: left;
+    display: block;
+    font-size: 1.4rem;
+}
+.pay_list a b{
+    display: block;
+    float: right;
+    width: 12px;
+    height: 17px;
+    margin-top:20px;
+    background: url(../images/icon_jitou.png) no-repeat;
+    background-size: 11px;
+}
+.pay_list a span:before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 28px;
+    margin-right: 6px;
+    vertical-align: -10px;
+    background:url(../images/icon_zhifu.jpg) 0 0 no-repeat;
+    background-position: 0px 0px;
+    background-size: 40px;
+}
+.pay_list .zhifubao span:before{
+    width: 40px;
+    height: 40px;
+    vertical-align: -12px;
+    background-position: 3px -28px;
+}
+.pay_list .kuaijie span:before{
+    width: 40px;
+    height: 40px;
+    vertical-align: -14px;
+    background-position: 2px -106px;
+}
+.pay_list .weixin span:before{
+    width: 40px;
+    height: 40px;
+    vertical-align: -12px;
+    background-position: 3px -67px;
+}

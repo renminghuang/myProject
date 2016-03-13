@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.contain_feilei{
+
+}
+.clf_title{
+    padding: 0 2.777%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:#ebebeb 1px solid;
+}
+.clf_title span{
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+.clf_title span:before{
+    content: "";
+    display: inline-block;
+    vertical-align: -4px;
+    width: 24px;
+    height: 19px;
+    overflow: hidden;
+    background:url(../images/icon_header.png) 0 -100px no-repeat;
+    background-size: 64px;
+}
+
+.icon_leisure span:before{
+    background-position: 0 -120px;
+}
+.icon_service span:before{
+    background-position: 0 -139px;
+}
+
+.clf_item{
+    background: #ffffff;
+    padding: 1rem 2.777%;
+    border-bottom:#ebebeb 1px solid;
+    overflow: hidden;
+}
+.clf_item a{
+    display: block;
+    width: 25%;
+    float: left;
+    line-height: 2.6rem;
+    font-size: 1.4rem;
+    padding-left: 18px;
+    box-sizing: border-box;
+}

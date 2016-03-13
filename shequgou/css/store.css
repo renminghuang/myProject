@@ -1,0 +1,427 @@
+
+/***********店铺详情***************/
+#main{
+    max-width: 768px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+#main{
+    max-width: 768px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+.header .qiehuan i{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.store_ban{
+    overflow: hidden;
+    max-width: 768px;
+    max-height: 245px;
+}
+.store_ban img{
+    width: 100%;
+    display: block;
+}
+/*com_logo*/
+.section{
+    padding: 0 2.777%;
+    background-color: #ffffff;
+    border-bottom:#e5e5e5 1px solid;
+}
+.com_logo{
+    position: relative;
+    z-index: 5;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.com_logo .logo{
+    position: absolute;
+    z-index: 5;
+    left: 2.777%;
+    top: -37px;
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    border: #d5d5d5 2px solid;
+    border-radius: 6px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 2px #d5d5d5;
+    -moz-box-shadow: 0 2px 2px #d5d5d5;;
+    box-shadow: 0 2px 2px #d5d5d5;
+
+}
+.com_logo .logo img{
+    width: 100%;
+    display: block;
+}
+.com_name{
+    padding-left: 96px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.com_name .d_name{
+    overflow: hidden;
+    display:-moz-box;
+    display:-webkit-box;
+}
+.com_name .d_name h1{
+    width: 128px;
+    font-size: 1.6rem;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.com_name .d_name .image_2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.com_name .image_2 img{
+    width: 60px;
+}
+.com_name .d_name .class1{
+   background-position: 0 -13px;
+}
+.com_name .d_name .class2{
+    background-position: 0 -26px;
+}
+.com_name .d_name .class3{
+    background-position: 0 -40px;
+}
+.com_name .d_name .class4{
+    background-position: 0 -53px;
+}
+.com_name .d_name .class5{
+    background-position: 0 -65px;
+}
+.com_name .pingji{
+    margin-top: 8px;
+}
+.com_name .pingji span{
+    margin-right: 8px;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    color:#d4d2cd;
+}
+.com_name .pingji i{
+    margin-left: 0.2rem;
+    display: inline-block;
+    width: 13px;
+    vertical-align: -0.2rem;
+}
+.com_name .pingji em{
+    margin-left: 0.2rem;
+    display: inline-block;
+    width: 12px;
+    vertical-align: -0.2rem;
+}
+.com_name .pingji i img{
+    width: 100%;
+}
+.com_name .pingji em img{
+    width: 100%;
+}
+.st_time{
+    margin-top: 0.8rem;
+    padding-left: 0.4rem;
+}
+.st_time h2{
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color:#ff8808;
+}
+.st_time h2 span {
+    font-size: 1.4rem;
+    color: #3f3c33;
+    margin-right: 1.8rem;
+
+}
+.st_time a{
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 1px;
+    border-radius: 0.2rem;
+    background: #d82400;
+    color: #ffffff;
+    line-height: 1.4rem;
+    text-align: center;
+}
+.st_time .icon_zhi{
+    background:#0091d3;
+}
+.st_time .icon_ren{
+    background:#d82400;
+}
+.st_time .icon_song{
+    background:#ff8808;
+}
+.gonggao {
+    width: 100%;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+    display:-moz-box; /* Firefox */
+    display:-webkit-box; /* Safari and Chrome */
+}
+.gonggao p{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    -moz-box-flex:1.0; /* Firefox */
+    -webkit-box-flex:1.0; /* Safari and Chrome */
+}
+.gonggao span{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color:#ff8808;
+}
+
+/*title_bar*/
+.title_bar p{
+    padding: 0 2.777%;
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-indent: 1.8rem;
+}
+/*store_contact*/
+.store_contact{
+    margin-top: 1rem;
+    padding: 0 2.777%;
+    background: #ffffff;
+    border-top:#e5e5e5 1px solid;
+    border-bottom:#e5e5e5 1px solid;
+
+}
+/*******2015/7/20修改********/
+.display_box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+}
+.flex-item{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+}
+.store_contact .box{
+    padding: 0.6rem;
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 1.4rem;
+}
+.store_contact .phone{
+    border-bottom:#e5e5e5 1px solid;
+}
+.store_contact .phone h2,
+.store_contact .address h2{
+    padding-left: 20px;
+    display:inline-block;
+}
+.store_contact .phone h2{
+     background:url(../images/icon_phone.png) 0 6px no-repeat;
+     background-size: 15px;
+ }
+.store_contact .address h2{
+    background:url(../images/icon1_address.png) 0 6px no-repeat;
+    background-size: 12px;
+}
+.store_contact .text_ad{
+    line-height: 1.428;
+    padding: 6px 0;
+}
+.store_contact .text_ad>span{
+    display:inline-block;
+    width:96%;
+    vertical-align: middle;
+}
+.btn_box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -webkit-box-align:center;
+    -ms-align-items:center;
+    -webkit-align-items:center;
+    align-items:center;
+}
+.store_contact .btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8px;
+    max-height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #ff8808;
+    /*margin-top: 6px;*/
+    /*margin-bottom: 6px;*/
+    color: #ffffff;
+}
+
+/*******2015/7/20修改end********/
+
+/*******2015/7/13修改end********/
+/*store_intr*/
+.store_intr{
+    background-color: #ffffff;
+    border-bottom:#e5e5e5 1px solid;
+}
+.store_intr .store_pic{
+    padding: 1rem 2.777%;
+    font-size: 1.4rem;
+    line-height: 1.428;
+    text-indent: 2em;
+}
+.store_intr .store_pic p{
+    margin-bottom: 4px;
+}
+.store_intr .store_pic img{
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+.store_intr .store_pic img:last-child{
+    margin-bottom: 0;
+}
+/*.store_intr p{*/
+    /*padding: 1rem 2.777%;*/
+    /*font-size: 1.4rem;*/
+    /*text-indent: 2em;*/
+/*}*/
+/*******2015/7/13修改end********/
+/*other_list*/
+.other_list{
+    background-color: #ffffff;
+    border-bottom:#e5e5e5 1px solid;
+}
+.other_list ul{
+    padding: 1rem 2.777%;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+.other_list ul li h2{
+    margin-top: 4px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.other_list ul li{
+    margin-top: 8px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.other_list ul li a{
+    display: inline-block;
+    width:80%;
+}
+.other_list ul li img{
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+.other_list .price{
+    padding-bottom: 0.8rem;
+}
+.other_list .price span{
+    color: #d82400 ;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.other_list .price del{
+    color: #b9b7b3 ;
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+}
+.other_list .other_i{
+    background-color: #0091d3;
+}
+
+/*down_box*/
+.header{
+    position: relative;
+    z-index: 55;
+}
+.down_box{
+    position: absolute;
+    z-index: 55;
+    right: 0;
+    bottom: -94px;
+    width:8.6rem ;
+    background: #ffffff;
+    border:#e5e5e5 1px solid;
+}
+.down_box a{
+    margin:0 4px;
+    display: block;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    border-bottom:#e5e5e5 1px solid;
+}
+
+/***************2015-8-14***********************/
+.store_ban{
+    position: relative;
+}
+.share_box{
+    position: absolute;
+    z-index: 999999;
+    top: 10px;
+    right: 2.777%;
+
+}
+.share_box a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 8px;
+}
+.share_box a.cur{
+    background-color: rgba(255,141,8,0.4);
+}
+.share_box a.icon_share{
+    background-image: url(../images/icon_share.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+}
+.share_box a.icon_collect{
+    background-image: url(../images/icon_collect.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}

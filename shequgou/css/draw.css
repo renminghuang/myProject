@@ -1,0 +1,159 @@
+@charset "utf-8";
+#container {
+    /*background:url(../images/draw_bg.jpg) 0 0 repeat-x;*/
+    /*background-size: 60px;*/
+    height: auto;
+    padding-bottom: 2rem;
+    /*background: -moz-linear-gradient(left, #95979A, #fff);*/
+    /*background: -webkit-linear-gradient(left, #95979A, #fff);*/
+    /*background: -o-linear-gradient(left, #95979A, #fff);*/
+    /*background: linear-gradient(left, #95979A, #fff);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #95979A, endColorstr = #FFFFFF);*/
+
+    /*background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffff31), color-stop(1, #c54127));*/
+    /*background-image: -moz-linear-gradient(top, #ffff31, #c54127);*/
+    /*background-image: linear-gradient(to bottom, rgba(225,225,49,1), rgba(197,65,39,1));*/
+
+    background: -moz-linear-gradient(top, #ffff31, #c54127);
+    background: -webkit-linear-gradient(top, #ffff31, #c54127);
+    background: -o-linear-gradient(top, #ffff31, #c54127);
+    background: linear-gradient(top, #ffff31, #c54127);
+}
+#container .bt{
+    text-align: center;
+    padding: 0 5%;
+}
+#container .bt img{
+    padding-top: 1rem;
+    /*padding-bottom: 1rem;*/
+    width: 168px;
+    display: inline-block;
+}
+#container .bt h1{
+    text-align: left;
+    font-size: 1.6rem;
+    color: #d82400;
+    line-height: 2.2rem;
+}
+#container .bt p{
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3f3c33;
+}
+#container .bt time{
+    display: block;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3f3c33;
+}
+/*ly-plate*/
+#ly-plate{
+    text-align: center;
+    padding: 2rem 0;
+}
+.ly-plate{
+    display: inline-block;
+    position: relative;
+    z-index: 55;
+    text-align: center;
+    width: 296px;
+    height: 296px;
+}
+.ly-plate .rotate-bg{
+    display: inline-block;
+    width: 296px;
+    height: 296px;
+    background:url(../images/ly-plate.png) 0 0 no-repeat;
+   background-size: 296px 296px;
+}
+.ly-plate .lottery-star{
+    position: absolute;
+    z-index: 99;
+    top: 108px;
+    left: 108px;
+    display: block;
+    width: 86px;
+}
+.ly-plate .lottery-star img{
+    width: 86px;
+}*
+
+/*draw2*/
+.turntable-bg{
+     position: relative;
+     display: inline-block;
+     width: 296px;
+     height: 296px;
+     background:url(../images/ly-plate.png) 0 0 no-repeat;
+     background-size: 296px 296px;
+ }
+.turntable-bg .pointer{
+    position: absolute;
+    z-index: 99;
+    top: 108px;
+    left: 108px;
+    display: block;
+    width: 89px;
+}
+.turntable-bg .pointer img{
+    width: 89px;
+}
+.turntable-bg .rotate{
+    position: absolute;
+    z-index: 55;
+    top: 27px;
+    left: 27px;
+    display: block;
+    width: 242px;
+}
+.turntable-bg .rotate img{
+    width: 242px;
+}
+/*********************************************************/
+/*sy*/
+.sy{
+    padding: 0 5%;
+}
+.sy h1{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background:rgba(255, 255, 255, 0.6)!important;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.sy h1 span{
+    margin-right: 6px;
+}
+.sy h1 span i{
+    color: #d82400;
+}
+
+.list_box{
+    margin: 1rem 5%;
+    padding: 3%;
+
+    border-radius: 4px;
+    background:rgba(255, 255, 255, 0.6)!important;
+}
+.list_box h2{
+    line-height: 30px;
+    font-size: 1.4rem;
+    color: #d82400;
+
+}
+.list_box .phonelist{
+    overflow: hidden;
+}
+.list_box .phonelist li{
+    line-height: 32px;
+    float: left;
+    font-size: 1.3rem;
+    width: 50%;
+}
+.list_box .phonelist li span{
+    margin-right: 6px;
+}
